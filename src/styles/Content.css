@@ -1,0 +1,123 @@
+
+body {
+    background-color: #E9F6F9;
+}
+
+.CenterBox{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    min-height: 100%;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    font-family: Lato;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.impann {
+    list-style-image: url(C:\Users\aadhi\CSEASystem\src\img\bell_1_1.png);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.memfac {
+    list-style-image: url(C:\Users\aadhi\CSEASystem\src\img\user.png);
+    text-align: left;
+    padding-left: 20px;
+}
+
+li{
+    padding-left: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.EAnn{
+    background-color: #A8C1E1;
+    color: black;
+    padding: 5px 5px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.EAnn:hover{
+    background-color: #3C5A81;
+    color: white;
+}
+
+.DAnn{
+    background-color: #A8C1E1;
+    color: black;
+    padding: 5px 5px;
+    width: 200px;
+    height: 35px;
+    margin-left: 40%;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.DAnn:hover{
+    background-color: #3C5A81;
+    color: white;
+}
+
+.EMem{
+    background-color: #A8C1E1;
+    color: black;
+    padding: 5px 5px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.EMem:hover{
+    background-color: #3C5A81;
+    color: white;
+}
+
+.DMem{
+    background-color: #A8C1E1;
+    color: black;
+    padding: 5px 5px;
+    margin-left: 40%;
+    width: 200px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.DMem:hover{
+    background-color: #3C5A81;
+    color: white;
+}
+
+.Logo{
+    background-color: white;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
