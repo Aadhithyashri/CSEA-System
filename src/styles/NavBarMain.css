@@ -16,26 +16,26 @@
     color: black;
     font-family: Lato, sans-serif;
     margin: 0;
-    padding: 0 40px;
+    padding-left: 400px;
     font-weight: normal;
+    display: flex;
+    list-style-type: none;
 }
 
-.left-container-main{
-    display: flex;
-    margin-left: 20%;
-    margin-right: 0;
-}
-
-.right-container-main{
-    display: flex;
-    margin-left: 4%;
+.nav-link{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .vl {
-    border-left: 2px solid black;
+    border-left: 1.5px solid black;
     height: 30px;
     position: absolute;
-    left: 72%;
-    margin-left: -3px;
-    top: 30;
+    left: 74.55%;
+    margin-right: 20px;
+    margin-top: 24px;
+
   }
+
+  

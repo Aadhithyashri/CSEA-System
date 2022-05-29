@@ -28,6 +28,10 @@ h2 {
     padding-left: 20px;
 }
 
+.ImpAnnHeader{
+    margin-top: 20px;
+}
+
 .memfac {
     list-style-image: url(C:\Users\aadhi\CSEASystem\src\img\user.png);
     text-align: left;

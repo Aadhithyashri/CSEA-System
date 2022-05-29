@@ -1,0 +1,11 @@
+.CenterBox {
+    background-color: white;
+    width: 80vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 80px;
+    margin-right: 80px;
+    min-height: 100%;
+}

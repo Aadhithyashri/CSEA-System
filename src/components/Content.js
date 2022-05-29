@@ -1,15 +1,15 @@
 import React from 'react'
 import "../styles/Content.css"
-import logo from "../img/csealogo.png"
+import logo from "../img/csealogo1.png"
 export default function Content() {
   return (
     <div className='OutBg'>
         <div className='CenterBox'>
             <div className='Logo'>
-                <img src= {logo} alt="psg" width="650" height="300"/>
+                <img src= {logo} alt="psg" width="650" height="180"/>
             </div>
             <div className='ImpAnn'>
-              <h2>
+              <h2 className='ImpAnnHeader'>
                 Important Announcements
               </h2>
               <ul className='impann'>

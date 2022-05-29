@@ -10,6 +10,10 @@
     min-height: 100%;
 }
 
+.GalleryHeader{
+    padding-top: 30px;
+}
+
 .Gallery-Body{
     background-color: #D3DFF0;
     padding: 20px;
@@ -20,6 +24,7 @@
 
 .Gallery-Body p{
     margin: 8px;
+    font-family:  Lato, sans-serif;
 }
 
 .Choose-File{

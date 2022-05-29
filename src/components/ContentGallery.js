@@ -5,12 +5,12 @@ export default function ContentGallery() {
   return (
     <div className="OutBg">
       <div className="CenterBox">
-        <br></br>
-        <br></br>
+        <div className="GalleryHeader">
         <p>GALLERY</p>
+        </div>
         <div className="Gallery-Body">
           <h5>
-          <p>Upload Images</p>
+          <h4>Upload Images</h4>
           <p>The last uploaded image will be on the top during display in the gallery page.</p>
           <p>Only .jpg/png files are supported </p>
           <p>Choose images to be uploaded: </p>

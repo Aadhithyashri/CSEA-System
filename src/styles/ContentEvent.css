@@ -14,11 +14,10 @@
   padding-left: 40px;
   padding-right: 40px;
   font-family: Lato, sans-serif;
-  /*padding-top: 20px;*/
   padding-bottom: 20px;
   text-align: left;
-  /*margin-bottom: 50px;*/
-  /*margin-top: 50px;*/
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .filler{
@@ -28,6 +27,8 @@
 
 .UpcomingEventsHeader{
   display: flex;
+  padding-top: 40px;
+  margin: 20px;
   
 }
 
@@ -43,9 +44,14 @@
 }
 
 .DelEvent {
-  align-items: right;
-  margin-right: 30px;
-  padding: 20px;
+  justify-content: flex-end;
+  display: inline-flex;
+  border: none;
+  margin-left: 800px;
+  margin-top: 10px;
+  width: 10%;
+  background-color: #3c5a81;
+  flex: 1;
 }
 
 h5 {

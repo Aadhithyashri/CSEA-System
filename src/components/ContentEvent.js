@@ -1,24 +1,23 @@
 import React from "react";
 import "../styles/ContentEvent.css";
-import logo from "../img/plus.png";
+import adde from "../img/plus.png";
+import dele from "../img/minus.png";
 
 export default function ContentEvent() {
   return (
     <div className="OutBg">
       <div className="CenterBox">
-        <br></br>
-        <br></br>
         <div className="UpcomingEventsHeader">
           <div className="filler"></div>
           <p> UPCOMING EVENTS </p>
           <button className="AddEvent">
-            <img src={logo} alt="psg" width="20" height="20" />
+            <img src={adde} alt="psg" width="20" height="20" />
           </button>
         </div>
-        <br></br>
-        <br></br>
         <div className="EventBox">
-          <div className="DelEvent">{/* <img src="" /> */}</div>
+          <button className="DelEvent">
+            <img src={dele} alt="psg" width="15" height="15" />
+          </button>
           <h3> Lorem ipsum </h3>
           <h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -27,10 +26,10 @@ export default function ContentEvent() {
             vel distinctio.
           </h5>
         </div>
-        <br></br>
-        <br></br>
         <div className="EventBox">
-          <div className="DelEvent">{/* <img src="" /> */}</div>
+          <button className="DelEvent">
+            <img src={dele} alt="psg" width="15" height="15" />
+          </button>
           <h3> Lorem ipsum </h3>
           <h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -39,10 +38,10 @@ export default function ContentEvent() {
             vel distinctio.
           </h5>
         </div>
-        <br></br>
-        <br></br>
         <div className="EventBox">
-          <div className="DelEvent">{/* <img src="" /> */}</div>
+          <button className="DelEvent">
+            <img src={dele} alt="psg" width="15" height="15" />
+          </button>
           <h3> Lorem ipsum </h3>
           <h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -51,10 +50,10 @@ export default function ContentEvent() {
             vel distinctio.
           </h5>
         </div>
-        <br></br>
-        <br></br>
         <div className="EventBox">
-          <div className="DelEvent">{/* <img src="" /> */}</div>
+          <button className="DelEvent">
+            <img src={dele} alt="psg" width="15" height="15" />
+          </button>
           <h3> Lorem ipsum </h3>
           <h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -63,10 +62,10 @@ export default function ContentEvent() {
             vel distinctio.
           </h5>
         </div>
-        <br></br>
-        <br></br>
         <div className="EventBox">
-          <div className="DelEvent">{/* <img src="" /> */}</div>
+          <button className="DelEvent">
+            <img src={dele} alt="psg" width="15" height="15" />
+          </button>
           <h3> Lorem ipsum </h3>
           <h5>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat

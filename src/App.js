@@ -4,6 +4,7 @@ import NavBarMain from "./components/NavBarMain";
 import Content from "./components/Content";
 import ContentEvent from "./components/ContentEvent";
 import ContentGallery from "./components/ContentGallery";
+import ContentProposal from "./components/ContentProposal";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/event" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/proposal" element={<Proposal />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -45,6 +47,14 @@ export const Gallery = () => {
   return (
     <React.Fragment>
       <ContentGallery />
+    </React.Fragment>
+  );
+};
+
+export const Proposal = () => {
+  return (
+    <React.Fragment>
+      <ContentProposal />
     </React.Fragment>
   );
 };
