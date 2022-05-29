@@ -22,6 +22,9 @@
     list-style-type: none;
 }
 
+.nav-link h3{
+    font-weight: 550;
+}
 .nav-link{
     color: black;
     padding: 20px;
@@ -29,10 +32,10 @@
 }
 
 .vl {
-    border-left: 1.5px solid black;
+    border-left: 1px solid black;
     height: 30px;
     position: absolute;
-    left: 74.55%;
+    left: 75%;
     margin-right: 20px;
     margin-top: 24px;
 
