@@ -1,0 +1,53 @@
+.CenterBox {
+  background-color: white;
+  width: 80vw;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  min-height: 100%;
+}
+
+.EventBox {
+  background-color: #3c5a81;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Lato, sans-serif;
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+  text-align: left;
+  /*margin-bottom: 50px;*/
+  /*margin-top: 50px;*/
+}
+
+.filler{
+  flex: 1;
+  width: 100%;
+}
+
+.UpcomingEventsHeader{
+  display: flex;
+  
+}
+
+.AddEvent {
+  text-align: center;
+  align-items: right;
+  justify-content: flex-end;
+  display: inline-flex;
+  border: none;
+  width: 100%;
+  background-color: white;
+  flex: 1;
+}
+
+.DelEvent {
+  align-items: right;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+h5 {
+  font-weight: normal;
+}

@@ -1,0 +1,35 @@
+.CenterBox {
+    background-color: white;
+    width: 80vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 80px;
+    margin-right: 80px;
+    min-height: 100%;
+}
+
+.Gallery-Body{
+    background-color: #D3DFF0;
+    padding: 20px;
+    margin-top: 15px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.Gallery-Body p{
+    margin: 8px;
+}
+
+.Choose-File{
+    margin: 5px;
+    border: none;
+    width: 85px;
+    height: 20px;
+    border-radius: 18px;
+}
+
+.ButtonFile{
+    display: flex;
+}

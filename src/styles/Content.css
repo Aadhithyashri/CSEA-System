@@ -7,6 +7,7 @@ body {
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 110px;
     align-items: center;
     margin-left: 80px;
     margin-right: 80px;
@@ -16,7 +17,7 @@ body {
 h2 {
     text-align: left;
     color: black;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -50,6 +51,7 @@ li{
     border-radius: 8px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .25s ease-in-out;
 }
 
 .EAnn:hover{
@@ -69,6 +71,7 @@ li{
     border-radius: 8px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .25s ease-in-out;
 }
 
 .DAnn:hover{
@@ -87,6 +90,7 @@ li{
     border-radius: 8px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .25s ease-in-out;
 }
 
 .EMem:hover{
@@ -106,6 +110,7 @@ li{
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .25s ease-in-out;
 }
 
 .DMem:hover{

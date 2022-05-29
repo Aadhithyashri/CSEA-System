@@ -1,11 +1,15 @@
 .nav-container-main{
-    background: #517CB4;
+    background: rgba(81, 124, 180, 0.7);
     height: 56px;
     width: 100vw;
     display: flex;
     padding: 0 60px;
     margin: 0;
     align-items: center;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    
 }
 
 .nav-content{
