@@ -11,10 +11,137 @@
 }
 
 p {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+
 
 }
 
-.EventPHeading {
+label {
+    text-align: left;
+}
 
+.EventPHeading {
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.YearBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.EventNBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.FromDBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.ToDBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.VenueBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.FromTBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.ToTBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.ExpPCBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.ChiefGBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.DesigBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.AddressBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.PresidentBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.ExpEBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.TotAmtABox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.TotAmtSBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.CommentsBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.EventDescBox {
+    background-color: #A8C1E1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 80px;
 }

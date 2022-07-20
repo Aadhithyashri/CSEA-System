@@ -5,109 +5,127 @@ export default function ContentProposal() {
   return (
     <div className="OutBg">
         <div className="CenterBox">
+          <form>
             <p className="EventPHeading">Event Proposal</p>
             <div className='Year'>
-              <p>Year</p>
+              <label>Year</label>
               <div className="YearBox">
+              <input type="text" name="Year" />
               </div>
             </div>
 
             <div className="EventName">
-              <p>Event Name</p>
+              <label>Event Name</label>
               <div className="EventNBox">
+              <input type="text" name="EventName" />
               </div>
             </div>
 
             <div className="FromDate">
-              <p>From Date</p>
+              <label>From Date</label>
               <div className="FromDBox">
+              <input type="text" name="FromDate" />
               </div>
             </div>
 
             <div className="ToDate">
-              <p>To Date</p>
+              <label>To Date</label>
               <div className="ToDBox">
+              <input type="text" name="ToDate" />
               </div>
             </div>
 
             <div className="Venue">
-              <p>Venue</p>
+              <label>Venue</label>
               <div className="VenueBox">
+              <input type="text" name="Venue" />
               </div>
             </div>
 
             <div className="FromTime">
-              <p>From Time</p>
+              <label>From Time</label>
               <div className="FromTBox">
+              <input type="text" name="FromTime" />
               </div>
             </div>
 
             <div className="ToTime">
-              <p>To Time</p>
-              <div className="ToTimeBox">
+              <label>To Time</label>
+              <div className="ToTBox">
+              <input type="text" name="ToTime" />
               </div>
             </div>
             
             <div className="ExpPC">
-              <p>Expected Participant Count</p>
+              <label>Expected Participant Count</label>
               <div className="ExpPCBox">
+              <input type="text" name="ExpC" />
               </div>
             </div>
 
             <div className="ChiefGuest">
-              <p>Chief Guest</p>
+              <label>Chief Guest</label>
               <div className="ChiefGBox">
+              <input type="text" name="ChiefGuest" />
               </div>
             </div>
 
             <div className="Designation">
-              <p>Designation</p>
+              <label>Designation</label>
               <div className="DesigBox">
+              <input type="text" name="Designation" />
               </div>
             </div>
 
             <div className="Address">
-              <p>Address</p>
+              <label>Address</label>
               <div className="AddressBox">
+              <input type="text" name="Address" />
               </div>
             </div>
 
             <div className="President">
-              <p>President</p>
+              <label>President</label>
               <div className="PresidentBox">
+              <input type="text" name="President" />
               </div>
             </div>
 
             <div className="ExpE">
-              <p>Expected Expense</p>
+              <label>Expected Expense</label>
               <div className="ExpEBox">
+              <input type="text" name="ExpE"/>
               </div>
             </div>
 
             <div className="TotAmtA">
-              <p>Total Amount Allocated by SU</p>
+              <label>Total Amount Allocated by SU</label>
               <div className="TotAmtABox">
+              <input type="text" name="TotAmtA" />
               </div>
             </div>
 
             <div className="TotAmtS">
-              <p>Total amount spent on the day of request</p>
+              <label>Total amount spent on the day of request</label>
               <div className="TotAmtSBox">
+              <input type="text" name="TotAmtS" />
               </div>
             </div>
 
             <div className="Comments">
-              <p>Comments</p>
+              <label>Comments</label>
               <div className="CommentsBox">
+              <input type="text" name="Comments"/>
               </div>
             </div>
 
             <div className="EventDesc">
-              <p>Event Description</p>
+              <label>Event Description</label>
               <div className="EventDescBox">
+                <input type="text" name="EventDesc"/>
               </div>
             </div>
-
+          </form>
         </div>
     </div>
   )
